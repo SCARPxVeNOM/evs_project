@@ -1,0 +1,314 @@
+{
+  "trained_at": "2026-10-14T19:53:27+00:00",
+  "best_model": "RandomForestClassifier",
+  "tuned": true,
+  "selection_score": "f1_macro",
+  "search_iterations_per_family": 24,
+  "best_params": {
+    "n_estimators": 300,
+    "min_samples_split": 10,
+    "min_samples_leaf": 2,
+    "max_features": 0.8,
+    "max_depth": null,
+    "class_weight": null
+  },
+  "n_samples": 12000,
+  "n_features": 16,
+  "labels": [
+    "borewell_recharge",
+    "not_recommended",
+    "recharge_pit",
+    "storage_tank",
+    "storage_tank_and_borewell_recharge",
+    "storage_tank_and_recharge_pit"
+  ],
+  "cv_mean_accuracy": 0.9513629120864943,
+  "cv_std_accuracy": 0.003966622630817557,
+  "test_accuracy": 0.9595833333333333,
+  "test_balanced_accuracy": 0.9460985387347446,
+  "test_f1_macro": 0.9488901604490106,
+  "calibration": {
+    "applied": true,
+    "method": "isotonic",
+    "ece_before": 0.0235,
+    "ece_after": 0.0028,
+    "log_loss_before": 0.3223,
+    "log_loss_after": 0.2714,
+    "holdout_fraction": 0.25,
+    "note": "Isotonic calibration lowered expected calibration error on the untouched test set, so the calibrated model is what ships and the confidence the API reports is meaningful."
+  },
+  "label_noise_in_dataset": 0.0301,
+  "per_label": {
+    "borewell_recharge": {
+      "precision": 0.8824,
+      "recall": 0.8955,
+      "f1": 0.8889,
+      "support": 67
+    },
+    "not_recommended": {
+      "precision": 1.0,
+      "recall": 0.9831,
+      "f1": 0.9915,
+      "support": 59
+    },
+    "recharge_pit": {
+      "precision": 0.9385,
+      "recall": 0.9786,
+      "f1": 0.9581,
+      "support": 187
+    },
+    "storage_tank": {
+      "precision": 0.9743,
+      "recall": 0.9155,
+      "f1": 0.944,
+      "support": 414
+    },
+    "storage_tank_and_borewell_recharge": {
+      "precision": 0.9581,
+      "recall": 0.9173,
+      "f1": 0.9373,
+      "support": 399
+    },
+    "storage_tank_and_recharge_pit": {
+      "precision": 0.961,
+      "recall": 0.9867,
+      "f1": 0.9737,
+      "support": 1274
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "borewell_recharge",
+      "not_recommended",
+      "recharge_pit",
+      "storage_tank",
+      "storage_tank_and_borewell_recharge",
+      "storage_tank_and_recharge_pit"
+    ],
+    "rows": [
+      [
+        60,
+        0,
+        7,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        58,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        183,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        379,
+        6,
+        27
+      ],
+      [
+        4,
+        0,
+        0,
+        5,
+        366,
+        24
+      ],
+      [
+        0,
+        0,
+        3,
+        4,
+        10,
+        1257
+      ]
+    ]
+  },
+  "feature_importances": [
+    {
+      "feature": "gw_depth_m",
+      "label": "Depth to groundwater",
+      "importance": 0.2348
+    },
+    {
+      "feature": "roof_area_m2",
+      "label": "Roof area",
+      "importance": 0.18
+    },
+    {
+      "feature": "demand_coverage",
+      "label": "Harvest as a share of demand",
+      "importance": 0.1754
+    },
+    {
+      "feature": "has_borewell",
+      "label": "Existing borewell",
+      "importance": 0.131
+    },
+    {
+      "feature": "open_area_m2",
+      "label": "Open area available",
+      "importance": 0.1081
+    },
+    {
+      "feature": "infiltration_mm_per_hr",
+      "label": "Soil infiltration rate",
+      "importance": 0.0881
+    },
+    {
+      "feature": "water_source_code",
+      "label": "Current water source",
+      "importance": 0.0255
+    },
+    {
+      "feature": "annual_roof_harvest_litres",
+      "label": "Annual roof harvest",
+      "importance": 0.0245
+    },
+    {
+      "feature": "slope_pct",
+      "label": "Ground slope",
+      "importance": 0.007
+    },
+    {
+      "feature": "annual_rainfall_mm",
+      "label": "Annual rainfall",
+      "importance": 0.0064
+    },
+    {
+      "feature": "population_density_per_km2",
+      "label": "Ward population density",
+      "importance": 0.0064
+    },
+    {
+      "feature": "gw_category_code",
+      "label": "Groundwater assessment category",
+      "importance": 0.005
+    },
+    {
+      "feature": "daily_non_potable_demand_litres",
+      "label": "Daily non-potable demand",
+      "importance": 0.0037
+    },
+    {
+      "feature": "persons",
+      "label": "Household size",
+      "importance": 0.0024
+    },
+    {
+      "feature": "roof_runoff_coeff",
+      "label": "Roof runoff coefficient",
+      "importance": 0.0013
+    },
+    {
+      "feature": "house_type_code",
+      "label": "House type",
+      "importance": 0.0005
+    }
+  ],
+  "learning_curve": [
+    {
+      "train_rows": 768,
+      "train_score": 0.9205,
+      "validation_score": 0.8453
+    },
+    {
+      "train_rows": 1920,
+      "train_score": 0.9592,
+      "validation_score": 0.9172
+    },
+    {
+      "train_rows": 3840,
+      "train_score": 0.9589,
+      "validation_score": 0.9385
+    },
+    {
+      "train_rows": 5760,
+      "train_score": 0.9606,
+      "validation_score": 0.9456
+    },
+    {
+      "train_rows": 7680,
+      "train_score": 0.9612,
+      "validation_score": 0.9514
+    }
+  ],
+  "candidates": {
+    "DecisionTreeClassifier": {
+      "cv_score": 0.944,
+      "cv_std": 0.0073,
+      "test_accuracy": 0.9558,
+      "test_balanced_accuracy": 0.9345,
+      "test_f1_macro": 0.9413,
+      "best_params": {
+        "min_samples_split": 20,
+        "min_samples_leaf": 2,
+        "max_depth": null,
+        "criterion": "gini",
+        "class_weight": null,
+        "ccp_alpha": 0.001
+      }
+    },
+    "RandomForestClassifier": {
+      "cv_score": 0.9514,
+      "cv_std": 0.004,
+      "test_accuracy": 0.9608,
+      "test_balanced_accuracy": 0.9494,
+      "test_f1_macro": 0.9512,
+      "best_params": {
+        "n_estimators": 300,
+        "min_samples_split": 10,
+        "min_samples_leaf": 2,
+        "max_features": 0.8,
+        "max_depth": null,
+        "class_weight": null
+      }
+    },
+    "ExtraTreesClassifier": {
+      "cv_score": 0.9023,
+      "cv_std": 0.0055,
+      "test_accuracy": 0.9217,
+      "test_balanced_accuracy": 0.8926,
+      "test_f1_macro": 0.8959,
+      "best_params": {
+        "n_estimators": 600,
+        "min_samples_leaf": 2,
+        "max_features": 0.8,
+        "max_depth": 24,
+        "class_weight": "balanced"
+      }
+    },
+    "HistGradientBoostingClassifier": {
+      "cv_score": 0.9501,
+      "cv_std": 0.004,
+      "test_accuracy": 0.9592,
+      "test_balanced_accuracy": 0.9405,
+      "test_f1_macro": 0.95,
+      "best_params": {
+        "min_samples_leaf": 5,
+        "max_leaf_nodes": 31,
+        "max_iter": 200,
+        "max_features": 1.0,
+        "learning_rate": 0.03,
+        "l2_regularization": 0.0
+      }
+    }
+  },
+  "caveat": "Labels come from the rule engine, so these figures measure how well the model reproduces the rules, not whether the recommendations are correct. Replace ml/data/training_data.csv with surveyed sites to learn something new.",
+  "environment": {
+    "python": "3.12.10",
+    "scikit_learn": "1.9.0"
+  }
+}

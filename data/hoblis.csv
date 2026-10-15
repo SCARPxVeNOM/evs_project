@@ -1,0 +1,23 @@
+district,taluk,hobli,lat,lon,annual_rainfall_mm,annual_rainy_days,rainfall_data_grade,rainfall_source_ref,soil_type,infiltration_mm_per_hr,gw_depth_m,gw_category,data_grade,source_ref
+Bengaluru Urban,Bengaluru North,Bengaluru North (Kasaba),13.0050,77.5900,929.0,54.1,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity,red_loamy,15,30,over_exploited,reference_estimate,NBSS&LUP/SoilGrids;CGWB-2022
+Bengaluru Urban,Bengaluru North,Yelahanka,13.1000,77.5960,779.3,45.4,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity,red_sandy_loam,25,25,over_exploited,reference_estimate,NBSS&LUP/SoilGrids;CGWB-2022
+Bengaluru Urban,Bengaluru North,Jala,13.1670,77.6500,768.0,44.7,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity,red_sandy_loam,25,20,over_exploited,reference_estimate,NBSS&LUP/SoilGrids;CGWB-2022
+Bengaluru Urban,Bengaluru North,Hesaraghatta,13.1400,77.4600,763.5,44.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity,red_loamy,15,18,over_exploited,reference_estimate,NBSS&LUP/SoilGrids;CGWB-2022
+Bengaluru Urban,Bengaluru North,Dasanapura,13.0600,77.4500,889.3,51.8,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity,red_loamy,15,22,over_exploited,reference_estimate,NBSS&LUP/SoilGrids;CGWB-2022
+Bengaluru Urban,Bengaluru East,Bengaluru East (Kasaba),12.9800,77.6400,815.0,47.5,ksndmc_taluk_normal,KSNDMC-hobli-normals;OpenCity,red_loamy,15,35,over_exploited,reference_estimate,NBSS&LUP/SoilGrids;CGWB-2022
+Bengaluru Urban,Bengaluru East,Krishnarajapuram,13.0100,77.6900,841.0,49.0,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity,red_sandy_loam,25,34,over_exploited,reference_estimate,NBSS&LUP/SoilGrids;CGWB-2022
+Bengaluru Urban,Bengaluru East,Bidarahalli,13.0400,77.7200,816.0,47.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity,red_sandy_loam,25,38,over_exploited,reference_estimate,NBSS&LUP/SoilGrids;CGWB-2022
+Bengaluru Urban,Bengaluru East,Varthur,12.9400,77.7400,849.5,49.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity,clay_loam,7,42,over_exploited,reference_estimate,NBSS&LUP/SoilGrids;CGWB-2022
+Bengaluru Urban,Bengaluru South,Bengaluru South (Kasaba),12.9400,77.5800,820.0,47.8,ksndmc_taluk_normal,KSNDMC-hobli-normals;OpenCity,red_loamy,15,28,over_exploited,reference_estimate,NBSS&LUP/SoilGrids;CGWB-2022
+Bengaluru Urban,Bengaluru South,Uttarahalli,12.9000,77.5400,893.4,52.0,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity,red_loamy,15,26,over_exploited,reference_estimate,NBSS&LUP/SoilGrids;CGWB-2022
+Bengaluru Urban,Bengaluru South,Kengeri,12.9100,77.4800,873.8,50.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity,lateritic_gravel,30,22,over_exploited,reference_estimate,NBSS&LUP/SoilGrids;CGWB-2022
+Bengaluru Urban,Bengaluru South,Begur,12.8800,77.6200,869.0,50.6,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity,red_sandy_loam,25,30,over_exploited,reference_estimate,NBSS&LUP/SoilGrids;CGWB-2022
+Bengaluru Urban,Bengaluru South,Tavarekere,12.8700,77.4300,855.3,49.8,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity,red_loamy,15,20,semi_critical,reference_estimate,NBSS&LUP/SoilGrids;CGWB-2022
+Bengaluru Urban,Anekal,Anekal,12.7100,77.6900,891.5,51.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity,red_sandy_loam,25,24,critical,reference_estimate,NBSS&LUP/SoilGrids;CGWB-2022
+Bengaluru Urban,Anekal,Attibele,12.7800,77.7700,840.5,48.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity,red_sandy_loam,25,26,critical,reference_estimate,NBSS&LUP/SoilGrids;CGWB-2022
+Bengaluru Urban,Anekal,Jigani,12.7900,77.6400,855.0,49.8,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity,gravelly_loam,20,28,critical,reference_estimate,NBSS&LUP/SoilGrids;CGWB-2022
+Bengaluru Urban,Anekal,Sarjapura,12.8600,77.7900,807.8,47.0,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity,clay_loam,7,32,critical,reference_estimate,NBSS&LUP/SoilGrids;CGWB-2022
+Bengaluru Rural,Devanahalli,Devanahalli,13.2460,77.7120,808.0,47.1,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity,red_sandy_loam,25,16,semi_critical,reference_estimate,NBSS&LUP/SoilGrids;CGWB-2022
+Bengaluru Rural,Doddaballapur,Doddaballapur,13.2940,77.5370,799.0,46.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity,red_loamy,15,14,semi_critical,reference_estimate,NBSS&LUP/SoilGrids;CGWB-2022
+Bengaluru Rural,Hoskote,Hoskote,13.0710,77.7980,857.0,49.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity,gravelly_loam,20,18,critical,reference_estimate,NBSS&LUP/SoilGrids;CGWB-2022
+Bengaluru Rural,Nelamangala,Nelamangala,13.1000,77.3940,922.5,53.7,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity,red_loamy,15,15,semi_critical,reference_estimate,NBSS&LUP/SoilGrids;CGWB-2022

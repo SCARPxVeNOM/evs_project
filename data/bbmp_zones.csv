@@ -1,0 +1,9 @@
+zone,lat,lon,wards,population_density_per_km2,density_band,data_grade
+East,12.9870,77.6150,44,18000,very_high,reference_estimate
+West,12.9770,77.5450,44,16500,very_high,reference_estimate
+South,12.9280,77.5720,45,15000,very_high,reference_estimate
+Dasarahalli,13.0330,77.5130,8,12000,high,reference_estimate
+Rajarajeshwari Nagar,12.9180,77.4960,14,7000,medium,reference_estimate
+Bommanahalli,12.8970,77.6250,16,8000,medium,reference_estimate
+Mahadevapura,12.9900,77.7000,17,6500,medium,reference_estimate
+Yelahanka,13.1000,77.5950,10,3000,low,reference_estimate

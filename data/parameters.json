@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "region": "Bengaluru, Karnataka, India",
+  "currency": "INR",
+  "price_base_year": 2025,
+  "bounding_box": {
+    "_note": "Bengaluru Urban + immediately adjoining Bengaluru Rural taluks. Requests outside this box are rejected.",
+    "min_lat": 12.55,
+    "max_lat": 13.45,
+    "min_lon": 77.25,
+    "max_lon": 77.95
+  },
+  "runoff_coefficients": {
+    "_note": "Roof/surface runoff coefficients after surface wetting, depression storage and evaporation losses. Source: CGWB Manual on Artificial Recharge of Ground Water (2007), Table on runoff coefficients; IS 15797:2008 (Roof top rainwater harvesting - Guidelines).",
+    "roof": {
+      "rcc_flat": 0.85,
+      "rcc_sloped": 0.85,
+      "tiled": 0.75,
+      "gi_metal_sheet": 0.9,
+      "asbestos_sheet": 0.8
+    },
+    "open_area": {
+      "paved_concrete": 0.7,
+      "paved_block": 0.55,
+      "gravel": 0.3,
+      "bare_soil": 0.2,
+      "lawn_garden": 0.15
+    }
+  },
+  "system_losses": {
+    "_note": "first_flush_mm_per_event is diverted before storage on every rainy day (IS 15797 recommends diverting the first 1-2 mm). system_efficiency covers gutter spillage, filter rejection and tank evaporation; it is applied only to the stored stream, not to the recharge stream.",
+    "first_flush_mm_per_event": 1.0,
+    "system_efficiency_storage": 0.9,
+    "system_efficiency_recharge": 0.95
+  },
+  "demand": {
+    "_note": "lpcd = litres per capita per day. 135 lpcd is the IS 1172:1993 domestic supply norm for towns with full flushing systems; 150 lpcd is the BWSSB design figure; 70 lpcd is the IS minimum. non_potable_share is the fraction of household demand that rainwater can serve without treatment beyond filtration (flushing, clothes/utensil washing, floor cleaning, gardening, vehicle washing).",
+    "default_lpcd": 135,
+    "bis_1172_full_flushing_lpcd": 135,
+    "bis_1172_minimum_lpcd": 70,
+    "bwssb_design_lpcd": 150,
+    "lpcd_min": 40,
+    "lpcd_max": 300,
+    "non_potable_share": 0.55,
+    "house_type_lpcd_adjust": {
+      "_note": "Multiplier on default_lpcd when the user does not state their own usage.",
+      "independent": 1.0,
+      "apartment": 0.95,
+      "villa": 1.3,
+      "row_house": 1.05
+    }
+  },
+  "storage_design": {
+    "_note": "A storage tank is sized to bridge a dry spell, capped by what the wettest month can actually deliver. design_days follows the 15-20 day domestic storage guidance in the CGWB recharge manual and BWSSB RWH handbook.",
+    "design_days": 20,
+    "design_days_min": 10,
+    "design_days_max": 30,
+    "standard_tank_sizes_litres": [
+      1000,
+      2000,
+      3000,
+      5000,
+      7500,
+      10000,
+      15000,
+      20000,
+      25000,
+      30000,
+      40000,
+      50000,
+      75000,
+      100000
+    ],
+    "plastic_tank_max_litres": 10000,
+    "min_useful_tank_litres": 1000
+  },
+  "recharge_design": {
+    "_note": "Recharge pits are sized for a design storm, with credit for the water that infiltrates while the storm lasts. design_storm is approximately the 1-hour, 2-year-return rainfall intensity for Bengaluru (IMD short-duration rainfall statistics). design_capture_fraction is the share of that storm's runoff the pit must retain: domestic pits are not built to swallow a cloudburst whole, and the excess is led to the stormwater drain through an overflow, which is accepted practice. side_infiltration_credit is the fraction of the wetted side-wall area counted alongside the pit floor, since a media-filled pit percolates through its walls as well as its base. void_ratio is the usable voids in a pit filled with boulder/gravel/coarse-sand layers. max_drain_down_hours keeps the pit empty before the next storm (CGWB practice: a percolation pit should drain within about two days).",
+    "design_storm_mm_per_hr": 50.0,
+    "design_storm_duration_hr": 1.0,
+    "design_capture_fraction": 0.5,
+    "side_infiltration_credit": 0.5,
+    "filter_media_void_ratio": 0.35,
+    "max_drain_down_hours": 48.0,
+    "pit_diameters_m": [
+      1.0,
+      1.2,
+      1.5,
+      1.8,
+      2.0
+    ],
+    "pit_depths_m": [
+      2.0,
+      2.5,
+      3.0
+    ],
+    "max_roof_area_per_pit_m2": 100.0,
+    "max_pits": 8,
+    "min_open_area_per_pit_m2": 4.0,
+    "borewell_recharge": {
+      "_note": "A desilting/filter chamber feeding the borewell casing through a 150 mm pipe. Sized for 10 minutes of design-storm runoff. CGWB guidance: one such structure serves roughly 200 m2 of roof.",
+      "max_roof_area_per_unit_m2": 200.0,
+      "retention_minutes": 10.0,
+      "chamber_diameter_m": 1.5,
+      "chamber_depth_m": 2.5,
+      "min_gw_depth_m": 15.0,
+      "max_units": 4
+    }
+  },
+  "suitability_thresholds": {
+    "_note": "Site screening limits used by the rule engine. Infiltration below min_infiltration_mm_per_hr makes a percolation pit ineffective; a water table shallower than min_gw_depth_for_recharge_m risks contaminating it and offers no storage space in the aquifer.",
+    "min_infiltration_mm_per_hr": 5.0,
+    "min_gw_depth_for_recharge_m": 8.0,
+    "max_gw_depth_for_pit_m": 60.0,
+    "min_roof_area_m2": 10.0,
+    "high_density_per_km2": 12000.0,
+    "steep_slope_pct": 10.0
+  },
+  "byelaw": {
+    "_note": "Karnataka rainwater harvesting regulation as applied in Bengaluru (BWSSB Act amendment 2009 / BBMP building byelaws): rainwater harvesting is mandatory for sites of 2400 sq ft (223 m2) and above, and for new buildings on sites of 1200 sq ft (111 m2) and above. Minimum provision is 20 litres per square metre of roof area for storage, or 10 litres per square metre of roof area for recharge. VERIFY against the current notification before using these numbers in a submission - they are the figures in force at the time of writing.",
+    "mandatory_plot_area_m2": 223.0,
+    "mandatory_new_building_plot_area_m2": 111.0,
+    "min_storage_litres_per_m2_roof": 20.0,
+    "min_recharge_litres_per_m2_roof": 10.0,
+    "reference": "BWSSB (Amendment) Act 2009, section 72A; BBMP Building Byelaws"
+  },
+  "water_rates": {
+    "_note": "BWSSB domestic telescopic tariff slabs for connections inside BBMP limits, plus a 25 percent sanitary cess on the water charge. Indicative only - BWSSB revises tariffs periodically. Tanker rate is the Bengaluru market rate for a 6000 litre load.",
+    "bwssb_domestic_slabs": [
+      {
+        "up_to_kl": 8,
+        "rate_per_kl": 7.0
+      },
+      {
+        "up_to_kl": 25,
+        "rate_per_kl": 11.0
+      },
+      {
+        "up_to_kl": 50,
+        "rate_per_kl": 26.0
+      },
+      {
+        "up_to_kl": null,
+        "rate_per_kl": 45.0
+      }
+    ],
+    "sanitary_cess_fraction": 0.25,
+    "tanker_load_litres": 6000,
+    "tanker_cost_per_load_inr": 900.0,
+    "borewell_pumping_cost_per_litre_inr": 0.02,
+    "assumed_tanker_dependency": {
+      "_note": "Fraction of displaced demand that would otherwise have come from a tanker, by declared water source.",
+      "cauvery": 0.05,
+      "borewell": 0.2,
+      "tanker": 1.0,
+      "cauvery_and_borewell": 0.1
+    }
+  },
+  "cost_model": {
+    "_note": "Overheads applied on top of the itemised material and labour cost in costs.csv.",
+    "plumbing_labour_fraction": 0.12,
+    "contingency_fraction": 0.08,
+    "annual_om_fraction": 0.02,
+    "min_annual_om_inr": 1200.0,
+    "structure_life_years": 20
+  },
+  "ml": {
+    "_note": "Settings for the structure-type classifier trained on rule-engine labels.",
+    "n_samples": 12000,
+    "random_state": 42,
+    "label_noise_fraction": 0.03,
+    "test_size": 0.2,
+    "min_accuracy": 0.85,
+    "artifact_path": "ml/artifacts/structure_model.joblib",
+    "metrics_path": "ml/artifacts/metrics.json"
+  },
+  "monthly_rainfall_shares": {
+    "_note": "Share of annual rainfall by month, from the IMD 1991-2020 Bengaluru monthly normals. Used to distribute a hobli's measured KSNDMC season totals across the months inside each season. Source: IMD-Bengaluru-monthly-1901-2025;OpenCity.",
+    "1": 0.00158,
+    "2": 0.00549,
+    "3": 0.01788,
+    "4": 0.06796,
+    "5": 0.12382,
+    "6": 0.10334,
+    "7": 0.10502,
+    "8": 0.14915,
+    "9": 0.18471,
+    "10": 0.16823,
+    "11": 0.05903,
+    "12": 0.01378
+  },
+  "monthly_rainy_day_shares": {
+    "_note": "Share of annual rainy days (>= 2.5 mm) by month, from the IMD Bengaluru City normals (annual 56 days).",
+    "1": 0.0036,
+    "2": 0.0054,
+    "3": 0.0107,
+    "4": 0.0482,
+    "5": 0.1125,
+    "6": 0.1089,
+    "7": 0.1464,
+    "8": 0.1714,
+    "9": 0.1661,
+    "10": 0.1482,
+    "11": 0.0607,
+    "12": 0.0179
+  },
+  "monthly_rainfall_normal_mm": {
+    "_note": "IMD published monthly normals for Bengaluru, 1991-2020 (the current WMO reference period), totalling 1074.1 mm. Source: IMD-Bengaluru-monthly-1901-2025;OpenCity.",
+    "1": 1.7,
+    "2": 5.9,
+    "3": 19.2,
+    "4": 73.0,
+    "5": 133.0,
+    "6": 111.0,
+    "7": 112.8,
+    "8": 160.2,
+    "9": 198.4,
+    "10": 180.7,
+    "11": 63.4,
+    "12": 14.8,
+    "annual_total_mm": 1074.1
+  },
+  "dry_year": {
+    "_note": "Mean monthly rainfall of the 8 driest years since 1991, as a ratio to the 1991-2020 normal. Not a flat percentage: a dry year in Bengaluru fails at the September peak (about 39% of normal) while June holds near normal, so scaling every month alike would hide the real risk. Years used: 1992, 1994, 2002, 2003, 2006, 2012, 2016, 2018. Source: IMD-Bengaluru-monthly-1901-2025;OpenCity.",
+    "years_used": [
+      1992,
+      1994,
+      2002,
+      2003,
+      2006,
+      2012,
+      2016,
+      2018
+    ],
+    "annual_fraction_of_normal": 0.6561,
+    "monthly_ratio": {
+      "1": 0.375,
+      "2": 0.0953,
+      "3": 0.8737,
+      "4": 0.3539,
+      "5": 0.8579,
+      "6": 1.016,
+      "7": 0.8402,
+      "8": 0.5734,
+      "9": 0.387,
+      "10": 0.6322,
+      "11": 0.6201,
+      "12": 1.1512
+    },
+    "record_years": 124,
+    "annual_percentiles_mm": {
+      "p05": 628.8,
+      "p10": 678.5,
+      "p25": 795.0,
+      "p50": 950.5,
+      "p75": 1091.2,
+      "p90": 1226.8
+    }
+  }
+}

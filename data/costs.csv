@@ -1,0 +1,11 @@
+item,unit,unit_cost_inr,low_inr,high_inr,note
+gutter_downpipe,per_m,320,250,400,"PVC gutter with downpipe, brackets and fixing"
+first_flush_diverter,per_unit,2500,1500,4000,Manual or automatic first-flush diverter on the downpipe
+rainwater_filter,per_unit,8500,6000,15000,Inline rainwater filter unit (Rainy/Popular type) ahead of storage
+desilting_chamber,per_unit,6000,4000,9000,Silt trap and screen chamber ahead of a recharge structure
+rcc_sump,per_litre,10,8,12,Masonry or RCC underground sump including excavation and waterproofing
+plastic_tank,per_litre,7,6,9,HDPE moulded tank on surface or terrace (up to 10000 L)
+recharge_pit_per_m3,per_m3,4150,3400,5700,"Excavation, precast rings or masonry lining and boulder/gravel/coarse-sand filter media; reference pit 1.5 m dia x 3.0 m deep costs about Rs 22000"
+borewell_recharge_unit,per_unit,20000,15000,25000,Desilting-cum-filter chamber connected to the borewell casing with a 150 mm feed pipe
+pump_set,per_unit,8500,6000,14000,0.5-1 HP pump to lift stored water to the distribution tank
+plumbing_distribution,per_unit,6000,4000,10000,Separate plumbing line to flushing and washing points

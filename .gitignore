@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test and tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Generated training set.
+#
+# Deliberately not committed. It is rebuilt deterministically from the hobli
+# tables by `python -m ml.train --regenerate` (or automatically on first train,
+# since ml.train generates it when missing). Committing it would mean a fresh
+# clone running `python -m ml.train` silently reuses a dataset built from
+# whatever data/ looked like at commit time, which is exactly the staleness trap
+# the README warns about.
+ml/data/training_data.csv
+
+# The trained model, its metrics and the exported tree rules ARE committed, so
+# the app and the /api/model endpoint work on a fresh clone without waiting out
+# a 15-minute hyperparameter search.
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store

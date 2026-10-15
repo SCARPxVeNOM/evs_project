@@ -1,0 +1,640 @@
+{
+  "Bengaluru North (Kasaba)": {
+    "lat": 13.005,
+    "lon": 77.59,
+    "wrb": "Luvisols",
+    "probs": [
+      [
+        "Luvisols",
+        30
+      ],
+      [
+        "Lixisols",
+        17
+      ],
+      [
+        "Cambisols",
+        11
+      ],
+      [
+        "Vertisols",
+        9
+      ],
+      [
+        "Leptosols",
+        8
+      ]
+    ],
+    "current_soil": "red_loamy",
+    "current_infil": 15.0
+  },
+  "Yelahanka": {
+    "lat": 13.1,
+    "lon": 77.596,
+    "wrb": "Luvisols",
+    "probs": [
+      [
+        "Luvisols",
+        42
+      ],
+      [
+        "Lixisols",
+        14
+      ],
+      [
+        "Leptosols",
+        12
+      ],
+      [
+        "Cambisols",
+        6
+      ],
+      [
+        "Vertisols",
+        6
+      ]
+    ],
+    "current_soil": "red_sandy_loam",
+    "current_infil": 25.0
+  },
+  "Jala": {
+    "lat": 13.167,
+    "lon": 77.65,
+    "wrb": "Lixisols",
+    "probs": [
+      [
+        "Lixisols",
+        33
+      ],
+      [
+        "Luvisols",
+        27
+      ],
+      [
+        "Cambisols",
+        7
+      ],
+      [
+        "Phaeozems",
+        7
+      ],
+      [
+        "Vertisols",
+        7
+      ]
+    ],
+    "current_soil": "red_sandy_loam",
+    "current_infil": 25.0
+  },
+  "Hesaraghatta": {
+    "lat": 13.14,
+    "lon": 77.46,
+    "wrb": "Luvisols",
+    "probs": [
+      [
+        "Luvisols",
+        31
+      ],
+      [
+        "Lixisols",
+        17
+      ],
+      [
+        "Vertisols",
+        9
+      ],
+      [
+        "Leptosols",
+        7
+      ],
+      [
+        "Arenosols",
+        6
+      ]
+    ],
+    "current_soil": "red_loamy",
+    "current_infil": 15.0
+  },
+  "Dasanapura": {
+    "lat": 13.06,
+    "lon": 77.45,
+    "wrb": "Lixisols",
+    "probs": [
+      [
+        "Lixisols",
+        36
+      ],
+      [
+        "Luvisols",
+        31
+      ],
+      [
+        "Cambisols",
+        10
+      ],
+      [
+        "Vertisols",
+        6
+      ],
+      [
+        "Nitisols",
+        4
+      ]
+    ],
+    "current_soil": "red_loamy",
+    "current_infil": 15.0
+  },
+  "Bengaluru East (Kasaba)": {
+    "lat": 12.98,
+    "lon": 77.64,
+    "wrb": "Luvisols",
+    "probs": [
+      [
+        "Luvisols",
+        40
+      ],
+      [
+        "Leptosols",
+        11
+      ],
+      [
+        "Lixisols",
+        11
+      ],
+      [
+        "Vertisols",
+        6
+      ],
+      [
+        "Acrisols",
+        5
+      ]
+    ],
+    "current_soil": "red_loamy",
+    "current_infil": 15.0
+  },
+  "Krishnarajapuram": {
+    "lat": 13.01,
+    "lon": 77.69,
+    "wrb": "Luvisols",
+    "probs": [
+      [
+        "Luvisols",
+        37
+      ],
+      [
+        "Lixisols",
+        13
+      ],
+      [
+        "Fluvisols",
+        9
+      ],
+      [
+        "Vertisols",
+        9
+      ],
+      [
+        "Cambisols",
+        8
+      ]
+    ],
+    "current_soil": "red_sandy_loam",
+    "current_infil": 25.0
+  },
+  "Bidarahalli": {
+    "lat": 13.04,
+    "lon": 77.72,
+    "wrb": "Luvisols",
+    "probs": [
+      [
+        "Luvisols",
+        25
+      ],
+      [
+        "Lixisols",
+        23
+      ],
+      [
+        "Vertisols",
+        11
+      ],
+      [
+        "Fluvisols",
+        8
+      ],
+      [
+        "Acrisols",
+        6
+      ]
+    ],
+    "current_soil": "red_sandy_loam",
+    "current_infil": 25.0
+  },
+  "Varthur": {
+    "lat": 12.94,
+    "lon": 77.74,
+    "wrb": "Luvisols",
+    "probs": [
+      [
+        "Luvisols",
+        22
+      ],
+      [
+        "Lixisols",
+        21
+      ],
+      [
+        "Vertisols",
+        10
+      ],
+      [
+        "Acrisols",
+        8
+      ],
+      [
+        "Cambisols",
+        8
+      ]
+    ],
+    "current_soil": "clay_loam",
+    "current_infil": 7.0
+  },
+  "Bengaluru South (Kasaba)": {
+    "lat": 12.94,
+    "lon": 77.58,
+    "wrb": "Luvisols",
+    "probs": [
+      [
+        "Luvisols",
+        31
+      ],
+      [
+        "Cambisols",
+        15
+      ],
+      [
+        "Leptosols",
+        11
+      ],
+      [
+        "Acrisols",
+        9
+      ],
+      [
+        "Fluvisols",
+        7
+      ]
+    ],
+    "current_soil": "red_loamy",
+    "current_infil": 15.0
+  },
+  "Uttarahalli": {
+    "lat": 12.9,
+    "lon": 77.54,
+    "wrb": "Luvisols",
+    "probs": [
+      [
+        "Luvisols",
+        27
+      ],
+      [
+        "Lixisols",
+        22
+      ],
+      [
+        "Vertisols",
+        12
+      ],
+      [
+        "Fluvisols",
+        7
+      ],
+      [
+        "Cambisols",
+        6
+      ]
+    ],
+    "current_soil": "red_loamy",
+    "current_infil": 15.0
+  },
+  "Kengeri": {
+    "lat": 12.91,
+    "lon": 77.48,
+    "wrb": "Lixisols",
+    "probs": [
+      [
+        "Lixisols",
+        27
+      ],
+      [
+        "Luvisols",
+        25
+      ],
+      [
+        "Cambisols",
+        10
+      ],
+      [
+        "Vertisols",
+        7
+      ],
+      [
+        "Fluvisols",
+        5
+      ]
+    ],
+    "current_soil": "lateritic_gravel",
+    "current_infil": 30.0
+  },
+  "Begur": {
+    "lat": 12.88,
+    "lon": 77.62,
+    "wrb": "Luvisols",
+    "probs": [
+      [
+        "Luvisols",
+        26
+      ],
+      [
+        "Cambisols",
+        10
+      ],
+      [
+        "Lixisols",
+        10
+      ],
+      [
+        "Leptosols",
+        9
+      ],
+      [
+        "Vertisols",
+        8
+      ]
+    ],
+    "current_soil": "red_sandy_loam",
+    "current_infil": 25.0
+  },
+  "Tavarekere": {
+    "lat": 12.87,
+    "lon": 77.43,
+    "wrb": "Lixisols",
+    "probs": [
+      [
+        "Lixisols",
+        46
+      ],
+      [
+        "Luvisols",
+        19
+      ],
+      [
+        "Vertisols",
+        9
+      ],
+      [
+        "Cambisols",
+        5
+      ],
+      [
+        "Leptosols",
+        4
+      ]
+    ],
+    "current_soil": "red_loamy",
+    "current_infil": 15.0
+  },
+  "Anekal": {
+    "lat": 12.71,
+    "lon": 77.69,
+    "wrb": "Lixisols",
+    "probs": [
+      [
+        "Lixisols",
+        23
+      ],
+      [
+        "Luvisols",
+        23
+      ],
+      [
+        "Cambisols",
+        9
+      ],
+      [
+        "Vertisols",
+        7
+      ],
+      [
+        "Fluvisols",
+        6
+      ]
+    ],
+    "current_soil": "red_sandy_loam",
+    "current_infil": 25.0
+  },
+  "Attibele": {
+    "lat": 12.78,
+    "lon": 77.77,
+    "wrb": "Luvisols",
+    "probs": [
+      [
+        "Luvisols",
+        29
+      ],
+      [
+        "Lixisols",
+        15
+      ],
+      [
+        "Vertisols",
+        12
+      ],
+      [
+        "Cambisols",
+        7
+      ],
+      [
+        "Leptosols",
+        6
+      ]
+    ],
+    "current_soil": "red_sandy_loam",
+    "current_infil": 25.0
+  },
+  "Jigani": {
+    "lat": 12.79,
+    "lon": 77.64,
+    "wrb": "Lixisols",
+    "probs": [
+      [
+        "Lixisols",
+        25
+      ],
+      [
+        "Luvisols",
+        25
+      ],
+      [
+        "Vertisols",
+        10
+      ],
+      [
+        "Leptosols",
+        8
+      ],
+      [
+        "Cambisols",
+        7
+      ]
+    ],
+    "current_soil": "gravelly_loam",
+    "current_infil": 20.0
+  },
+  "Sarjapura": {
+    "lat": 12.86,
+    "lon": 77.79,
+    "wrb": "Luvisols",
+    "probs": [
+      [
+        "Luvisols",
+        29
+      ],
+      [
+        "Lixisols",
+        24
+      ],
+      [
+        "Cambisols",
+        9
+      ],
+      [
+        "Vertisols",
+        7
+      ],
+      [
+        "Acrisols",
+        5
+      ]
+    ],
+    "current_soil": "clay_loam",
+    "current_infil": 7.0
+  },
+  "Devanahalli": {
+    "lat": 13.246,
+    "lon": 77.712,
+    "wrb": "Luvisols",
+    "probs": [
+      [
+        "Luvisols",
+        32
+      ],
+      [
+        "Lixisols",
+        20
+      ],
+      [
+        "Vertisols",
+        11
+      ],
+      [
+        "Leptosols",
+        8
+      ],
+      [
+        "Cambisols",
+        7
+      ]
+    ],
+    "current_soil": "red_sandy_loam",
+    "current_infil": 25.0
+  },
+  "Doddaballapur": {
+    "lat": 13.294,
+    "lon": 77.537,
+    "wrb": "Luvisols",
+    "probs": [
+      [
+        "Luvisols",
+        23
+      ],
+      [
+        "Lixisols",
+        19
+      ],
+      [
+        "Vertisols",
+        12
+      ],
+      [
+        "Fluvisols",
+        6
+      ],
+      [
+        "Leptosols",
+        6
+      ]
+    ],
+    "current_soil": "red_loamy",
+    "current_infil": 15.0
+  },
+  "Hoskote": {
+    "lat": 13.071,
+    "lon": 77.798,
+    "wrb": "Lixisols",
+    "probs": [
+      [
+        "Lixisols",
+        33
+      ],
+      [
+        "Luvisols",
+        25
+      ],
+      [
+        "Vertisols",
+        10
+      ],
+      [
+        "Arenosols",
+        4
+      ],
+      [
+        "Leptosols",
+        4
+      ]
+    ],
+    "current_soil": "gravelly_loam",
+    "current_infil": 20.0
+  },
+  "Nelamangala": {
+    "lat": 13.1,
+    "lon": 77.394,
+    "wrb": "Luvisols",
+    "probs": [
+      [
+        "Luvisols",
+        29
+      ],
+      [
+        "Lixisols",
+        23
+      ],
+      [
+        "Vertisols",
+        12
+      ],
+      [
+        "Leptosols",
+        8
+      ],
+      [
+        "Cambisols",
+        6
+      ]
+    ],
+    "current_soil": "red_loamy",
+    "current_infil": 15.0
+  }
+}

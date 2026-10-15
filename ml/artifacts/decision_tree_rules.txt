@@ -1,0 +1,79 @@
+|--- roof_area_m2 <= 801.55
+|   |--- demand_coverage <= 0.15
+|   |   |--- roof_area_m2 <= 9.95
+|   |   |   |--- class: not_recommended
+|   |   |--- roof_area_m2 >  9.95
+|   |   |   |--- gw_depth_m <= 34.75
+|   |   |   |   |--- open_area_m2 <= 3.95
+|   |   |   |   |   |--- has_borewell <= 0.50
+|   |   |   |   |   |   |--- class: storage_tank
+|   |   |   |   |   |--- has_borewell >  0.50
+|   |   |   |   |   |   |--- gw_depth_m <= 14.95
+|   |   |   |   |   |   |   |--- class: storage_tank
+|   |   |   |   |   |   |--- gw_depth_m >  14.95
+|   |   |   |   |   |   |   |--- class: borewell_recharge
+|   |   |   |   |--- open_area_m2 >  3.95
+|   |   |   |   |   |--- gw_depth_m <= 7.75
+|   |   |   |   |   |   |--- class: storage_tank
+|   |   |   |   |   |--- gw_depth_m >  7.75
+|   |   |   |   |   |   |--- infiltration_mm_per_hr <= 5.05
+|   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |--- infiltration_mm_per_hr >  5.05
+|   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |--- gw_depth_m >  34.75
+|   |   |   |   |--- has_borewell <= 0.50
+|   |   |   |   |   |--- water_source_code <= 1.50
+|   |   |   |   |   |   |--- class: recharge_pit
+|   |   |   |   |   |--- water_source_code >  1.50
+|   |   |   |   |   |   |--- class: storage_tank_and_recharge_pit
+|   |   |   |   |--- has_borewell >  0.50
+|   |   |   |   |   |--- class: borewell_recharge
+|   |--- demand_coverage >  0.15
+|   |   |--- gw_depth_m <= 34.95
+|   |   |   |--- open_area_m2 <= 3.95
+|   |   |   |   |--- has_borewell <= 0.50
+|   |   |   |   |   |--- class: storage_tank
+|   |   |   |   |--- has_borewell >  0.50
+|   |   |   |   |   |--- gw_depth_m <= 14.80
+|   |   |   |   |   |   |--- class: storage_tank
+|   |   |   |   |   |--- gw_depth_m >  14.80
+|   |   |   |   |   |   |--- class: storage_tank_and_borewell_recharge
+|   |   |   |--- open_area_m2 >  3.95
+|   |   |   |   |--- gw_depth_m <= 7.95
+|   |   |   |   |   |--- class: storage_tank
+|   |   |   |   |--- gw_depth_m >  7.95
+|   |   |   |   |   |--- infiltration_mm_per_hr <= 4.95
+|   |   |   |   |   |   |--- has_borewell <= 0.50
+|   |   |   |   |   |   |   |--- class: storage_tank
+|   |   |   |   |   |   |--- has_borewell >  0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |--- infiltration_mm_per_hr >  4.95
+|   |   |   |   |   |   |--- gw_depth_m <= 29.95
+|   |   |   |   |   |   |   |--- class: storage_tank_and_recharge_pit
+|   |   |   |   |   |   |--- gw_depth_m >  29.95
+|   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |--- gw_depth_m >  34.95
+|   |   |   |--- has_borewell <= 0.50
+|   |   |   |   |--- open_area_m2 <= 3.80
+|   |   |   |   |   |--- class: storage_tank
+|   |   |   |   |--- open_area_m2 >  3.80
+|   |   |   |   |   |--- infiltration_mm_per_hr <= 4.95
+|   |   |   |   |   |   |--- class: storage_tank
+|   |   |   |   |   |--- infiltration_mm_per_hr >  4.95
+|   |   |   |   |   |   |--- gw_depth_m <= 60.35
+|   |   |   |   |   |   |   |--- class: storage_tank_and_recharge_pit
+|   |   |   |   |   |   |--- gw_depth_m >  60.35
+|   |   |   |   |   |   |   |--- class: storage_tank
+|   |   |   |--- has_borewell >  0.50
+|   |   |   |   |--- gw_depth_m <= 39.85
+|   |   |   |   |   |--- infiltration_mm_per_hr <= 20.40
+|   |   |   |   |   |   |--- class: storage_tank_and_borewell_recharge
+|   |   |   |   |   |--- infiltration_mm_per_hr >  20.40
+|   |   |   |   |   |   |--- demand_coverage <= 0.61
+|   |   |   |   |   |   |   |--- class: storage_tank_and_borewell_recharge
+|   |   |   |   |   |   |--- demand_coverage >  0.61
+|   |   |   |   |   |   |   |--- class: storage_tank_and_recharge_pit
+|   |   |   |   |--- gw_depth_m >  39.85
+|   |   |   |   |   |--- class: storage_tank_and_borewell_recharge
+|--- roof_area_m2 >  801.55
+|   |--- class: storage_tank

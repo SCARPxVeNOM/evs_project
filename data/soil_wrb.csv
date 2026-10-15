@@ -1,0 +1,23 @@
+hobli,wrb_class,wrb_confidence_pct,wrb_class_mix,vertisol_probability_pct,assumed_infiltration_mm_per_hr,infiltration_disputed,data_grade,source_ref
+Bengaluru North (Kasaba),Luvisols,40.0,Luvisols 40%; Lixisols 23%; Cambisols 15%; Vertisols 12%; Leptosols 11%,12.0,15.0,no,isric_soilgrids_point,ISRIC-SoilGrids-2.0-WRB
+Yelahanka,Luvisols,52.5,Luvisols 52%; Lixisols 18%; Leptosols 15%; Cambisols 8%; Vertisols 8%,7.5,25.0,no,isric_soilgrids_point,ISRIC-SoilGrids-2.0-WRB
+Jala,Lixisols,40.7,Lixisols 41%; Luvisols 33%; Cambisols 9%; Phaeozems 9%; Vertisols 9%,8.6,25.0,no,isric_soilgrids_point,ISRIC-SoilGrids-2.0-WRB
+Hesaraghatta,Luvisols,44.3,Luvisols 44%; Lixisols 24%; Vertisols 13%; Leptosols 10%; Arenosols 9%,12.9,15.0,no,isric_soilgrids_point,ISRIC-SoilGrids-2.0-WRB
+Dasanapura,Lixisols,41.4,Lixisols 41%; Luvisols 36%; Cambisols 11%; Vertisols 7%; Nitisols 5%,6.9,15.0,no,isric_soilgrids_point,ISRIC-SoilGrids-2.0-WRB
+Bengaluru East (Kasaba),Luvisols,54.8,Luvisols 55%; Leptosols 15%; Lixisols 15%; Vertisols 8%; Acrisols 7%,8.2,15.0,no,isric_soilgrids_point,ISRIC-SoilGrids-2.0-WRB
+Krishnarajapuram,Luvisols,48.7,Luvisols 49%; Lixisols 17%; Fluvisols 12%; Vertisols 12%; Cambisols 11%,11.8,25.0,no,isric_soilgrids_point,ISRIC-SoilGrids-2.0-WRB
+Bidarahalli,Luvisols,34.2,Luvisols 34%; Lixisols 32%; Vertisols 15%; Fluvisols 11%; Acrisols 8%,15.1,25.0,yes,isric_soilgrids_point,ISRIC-SoilGrids-2.0-WRB
+Varthur,Luvisols,31.9,Luvisols 32%; Lixisols 30%; Vertisols 14%; Acrisols 12%; Cambisols 12%,14.5,7.0,no,isric_soilgrids_point,ISRIC-SoilGrids-2.0-WRB
+Bengaluru South (Kasaba),Luvisols,42.5,Luvisols 42%; Cambisols 21%; Leptosols 15%; Acrisols 12%; Fluvisols 10%,0.0,15.0,no,isric_soilgrids_point,ISRIC-SoilGrids-2.0-WRB
+Uttarahalli,Luvisols,36.5,Luvisols 36%; Lixisols 30%; Vertisols 16%; Fluvisols 9%; Cambisols 8%,16.2,15.0,no,isric_soilgrids_point,ISRIC-SoilGrids-2.0-WRB
+Kengeri,Lixisols,36.5,Lixisols 36%; Luvisols 34%; Cambisols 14%; Vertisols 9%; Fluvisols 7%,9.5,30.0,no,isric_soilgrids_point,ISRIC-SoilGrids-2.0-WRB
+Begur,Luvisols,41.3,Luvisols 41%; Cambisols 16%; Lixisols 16%; Leptosols 14%; Vertisols 13%,12.7,25.0,yes,isric_soilgrids_point,ISRIC-SoilGrids-2.0-WRB
+Tavarekere,Lixisols,55.4,Lixisols 55%; Luvisols 23%; Vertisols 11%; Cambisols 6%; Leptosols 5%,10.8,15.0,no,isric_soilgrids_point,ISRIC-SoilGrids-2.0-WRB
+Anekal,Lixisols,33.8,Lixisols 34%; Luvisols 34%; Cambisols 13%; Vertisols 10%; Fluvisols 9%,10.3,25.0,no,isric_soilgrids_point,ISRIC-SoilGrids-2.0-WRB
+Attibele,Luvisols,42.0,Luvisols 42%; Lixisols 22%; Vertisols 17%; Cambisols 10%; Leptosols 9%,17.4,25.0,yes,isric_soilgrids_point,ISRIC-SoilGrids-2.0-WRB
+Jigani,Lixisols,33.3,Lixisols 33%; Luvisols 33%; Vertisols 13%; Leptosols 11%; Cambisols 9%,13.3,20.0,yes,isric_soilgrids_point,ISRIC-SoilGrids-2.0-WRB
+Sarjapura,Luvisols,39.2,Luvisols 39%; Lixisols 32%; Cambisols 12%; Vertisols 9%; Acrisols 7%,9.5,7.0,no,isric_soilgrids_point,ISRIC-SoilGrids-2.0-WRB
+Devanahalli,Luvisols,41.0,Luvisols 41%; Lixisols 26%; Vertisols 14%; Leptosols 10%; Cambisols 9%,14.1,25.0,yes,isric_soilgrids_point,ISRIC-SoilGrids-2.0-WRB
+Doddaballapur,Luvisols,34.8,Luvisols 35%; Lixisols 29%; Vertisols 18%; Fluvisols 9%; Leptosols 9%,18.2,15.0,no,isric_soilgrids_point,ISRIC-SoilGrids-2.0-WRB
+Hoskote,Lixisols,43.4,Lixisols 43%; Luvisols 33%; Vertisols 13%; Arenosols 5%; Leptosols 5%,13.2,20.0,yes,isric_soilgrids_point,ISRIC-SoilGrids-2.0-WRB
+Nelamangala,Luvisols,37.2,Luvisols 37%; Lixisols 29%; Vertisols 15%; Leptosols 10%; Cambisols 8%,15.4,15.0,no,isric_soilgrids_point,ISRIC-SoilGrids-2.0-WRB

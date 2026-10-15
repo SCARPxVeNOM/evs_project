@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rainwater Harvesting Advisor &middot; Bengaluru</title>
+<meta name="description" content="Recommends a rainwater harvesting structure for a location in Bengaluru from rainfall, soil, groundwater, roof and household data.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Archivo:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <h1>
+      <span class="kicker">Environmental Science &middot; BAIP508</span>
+      Rainwater Harvesting <em>Advisor</em>
+    </h1>
+    <div class="masthead-meta">
+      <span>Coverage <b id="meta-hoblis">&mdash;</b> hoblis</span>
+      <span>Model <b id="meta-model">checking&hellip;</b></span>
+      <span>Rates <b id="meta-year">&mdash;</b></span>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <!-- ------------------------------------------------------- input rail -->
+  <aside class="rail no-print">
+
+    <div class="section-title">
+      <span class="idx">01</span>
+      <h2>Location</h2>
+      <span class="aside">click the map</span>
+    </div>
+
+    <div class="map-shell" id="map-shell">
+      <div id="map"></div>
+      <div class="map-fallback">
+        The map could not load, which usually means no internet connection. Pick a
+        hobli below instead &mdash; the recommendation does not need the map.
+      </div>
+    </div>
+    <div class="pin-readout">
+      <span id="pin-coords">no pin set</span>
+      <span class="hint" id="pin-hint">or choose a hobli</span>
+    </div>
+
+    <div class="field" style="margin-top:12px">
+      <label for="hobli">Hobli <span class="unit">(used when no pin is set)</span></label>
+      <select id="hobli">
+        <option value="">&mdash; select a hobli &mdash;</option>
+      </select>
+    </div>
+
+    <div class="site-card" id="site-card" hidden>
+      <h4 id="site-name">&mdash;</h4>
+      <dl>
+        <dt>Rainfall</dt><dd id="site-rain">&mdash;</dd>
+        <dt>Soil</dt><dd id="site-soil">&mdash;</dd>
+        <dt>Water table</dt><dd id="site-gw">&mdash;</dd>
+        <dt>Aquifer</dt><dd id="site-cat">&mdash;</dd>
+        <dt>BBMP zone</dt><dd id="site-zone">&mdash;</dd>
+      </dl>
+    </div>
+
+    <form id="site-form" novalidate>
+
+      <fieldset>
+        <legend>02 &middot; Catchment</legend>
+        <div class="field-row">
+          <div class="field">
+            <label for="roof_area_m2">Roof area <span class="unit">m&sup2;</span></label>
+            <input type="number" id="roof_area_m2" value="120" min="1" max="50000" step="1" required>
+          </div>
+          <div class="field">
+            <label for="roof_type">Roof type</label>
+            <select id="roof_type"></select>
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="open_area_m2">Open area <span class="unit">m&sup2;</span></label>
+            <input type="number" id="open_area_m2" value="40" min="0" max="50000" step="1">
+          </div>
+          <div class="field">
+            <label for="open_area_type">Open surface</label>
+            <select id="open_area_type"></select>
+          </div>
+        </div>
+        <p class="hint-text">Roof area is the footprint under the roof, not the sloped surface.</p>
+      </fieldset>
+
+      <fieldset>
+        <legend>03 &middot; Household</legend>
+        <div class="field-row">
+          <div class="field">
+            <label for="household_size">People</label>
+            <input type="number" id="household_size" value="4" min="1" max="500" step="1" required>
+          </div>
+          <div class="field">
+            <label for="house_type">House type</label>
+            <select id="house_type"></select>
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="daily_use_lpcd">Daily use <span class="unit">L/person</span></label>
+            <input type="number" id="daily_use_lpcd" placeholder="norm" min="1" max="1000" step="1">
+          </div>
+          <div class="field">
+            <label for="water_source">Water source</label>
+            <select id="water_source"></select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="existing_storage_litres">Existing sump or tank <span class="unit">litres, 0 if none</span></label>
+          <input type="number" id="existing_storage_litres" value="0" min="0" step="500">
+        </div>
+        <div class="check">
+          <input type="checkbox" id="has_borewell">
+          <label for="has_borewell">There is a borewell on the plot</label>
+        </div>
+        <p class="hint-text">Leave daily use blank to apply the IS 1172 norm for this house type. An existing sump the roof can feed is not charged for again.</p>
+      </fieldset>
+
+      <fieldset>
+        <legend>04 &middot; Plot &amp; options</legend>
+        <div class="field-row">
+          <div class="field">
+            <label for="plot_area_m2">Plot area <span class="unit">m&sup2;</span></label>
+            <input type="number" id="plot_area_m2" value="223" min="1" max="500000" step="1">
+          </div>
+          <div class="field">
+            <label for="slope_pct">Ground slope <span class="unit">%</span></label>
+            <input type="number" id="slope_pct" value="2" min="0" max="60" step="0.5">
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="storage_design_days">Dry-spell cover <span class="unit">days</span></label>
+            <input type="number" id="storage_design_days" placeholder="20" min="1" max="60" step="1">
+          </div>
+          <div class="field">
+            <label for="engine">Decision engine</label>
+            <select id="engine"></select>
+          </div>
+        </div>
+        <div class="check">
+          <input type="checkbox" id="new_building">
+          <label for="new_building">New building under construction</label>
+        </div>
+        <p class="hint-text">Plot area is needed for the byelaw check. The engine setting decides whether the rules or the trained classifier picks the structure.</p>
+      </fieldset>
+
+      <div class="actions">
+        <button type="submit" id="submit-btn">Get recommendation</button>
+        <button type="button" class="ghost" id="reset-btn">Reset</button>
+      </div>
+    </form>
+  </aside>
+
+  <!-- ----------------------------------------------------------- report -->
+  <main class="sheet" id="sheet">
+    <div class="empty" id="empty-state">
+      <h2>No site assessed yet</h2>
+      <p>
+        Drop a pin anywhere in Bengaluru or pick a hobli, describe the roof and the
+        household, and this sheet fills with a harvest estimate, a structure
+        recommendation, its size and cost, and a month-by-month comparison of
+        supply against demand.
+      </p>
+    </div>
+    <div id="report"></div>
+  </main>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="/static/app.js"></script>
+</body>
+</html>

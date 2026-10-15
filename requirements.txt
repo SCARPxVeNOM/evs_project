@@ -1,0 +1,25 @@
+# AI-Based Rainwater Harvesting Recommendation System (Bengaluru)
+# Tested on Python 3.12.10
+#
+#   python -m venv .venv
+#   .venv\Scripts\activate          (Windows)   source .venv/bin/activate  (Linux/macOS)
+#   pip install -r requirements.txt
+#   python -m ml.train              builds ml/artifacts/structure_model.joblib
+#   uvicorn app.main:app --reload   serves the API and the web UI on :8000
+
+# --- API and validation ---
+fastapi==0.116.1
+uvicorn==0.35.0
+pydantic==2.11.7
+
+# --- data handling ---
+pandas==3.0.3
+numpy==2.4.3
+
+# --- machine learning layer ---
+scikit-learn==1.9.0
+joblib==1.5.3
+
+# --- tests ---
+pytest==8.4.2
+httpx==0.28.1          # required by fastapi.testclient.TestClient

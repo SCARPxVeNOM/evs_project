@@ -1,0 +1,265 @@
+hobli,taluk,month,month_name,rainfall_mm,rainy_days,data_grade,source_ref
+Anekal,Anekal,1,Jan,1.3,0.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Anekal,Anekal,2,Feb,4.5,0.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Anekal,Anekal,3,Mar,14.5,0.6,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Anekal,Anekal,4,Apr,55.2,2.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Anekal,Anekal,5,May,100.6,5.8,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Anekal,Anekal,6,Jun,90.4,5.7,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Anekal,Anekal,7,Jul,91.9,7.6,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Anekal,Anekal,8,Aug,130.5,8.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Anekal,Anekal,9,Sep,161.6,8.6,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Anekal,Anekal,10,Oct,167.9,7.7,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Anekal,Anekal,11,Nov,58.9,3.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Anekal,Anekal,12,Dec,13.7,0.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Attibele,Anekal,1,Jan,1.1,0.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Attibele,Anekal,2,Feb,4.0,0.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Attibele,Anekal,3,Mar,13.0,0.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Attibele,Anekal,4,Apr,49.4,2.4,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Attibele,Anekal,5,May,90.0,5.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Attibele,Anekal,6,Jun,87.1,5.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Attibele,Anekal,7,Jul,88.5,7.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Attibele,Anekal,8,Aug,125.7,8.4,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Attibele,Anekal,9,Sep,155.7,8.1,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Attibele,Anekal,10,Oct,157.4,7.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Attibele,Anekal,11,Nov,55.2,3.0,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Attibele,Anekal,12,Dec,12.9,0.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Begur,Bengaluru South,1,Jan,1.2,0.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Begur,Bengaluru South,2,Feb,4.2,0.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Begur,Bengaluru South,3,Mar,13.5,0.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Begur,Bengaluru South,4,Apr,51.4,2.4,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Begur,Bengaluru South,5,May,93.7,5.7,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Begur,Bengaluru South,6,Jun,93.1,5.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Begur,Bengaluru South,7,Jul,94.6,7.4,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Begur,Bengaluru South,8,Aug,134.3,8.7,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Begur,Bengaluru South,9,Sep,166.4,8.4,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Begur,Bengaluru South,10,Oct,151.2,7.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Begur,Bengaluru South,11,Nov,53.1,3.1,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Begur,Bengaluru South,12,Dec,12.4,0.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru East (Kasaba),Bengaluru East,1,Jan,0.9,0.2,ksndmc_taluk_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru East (Kasaba),Bengaluru East,2,Feb,3.0,0.3,ksndmc_taluk_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru East (Kasaba),Bengaluru East,3,Mar,9.8,0.5,ksndmc_taluk_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru East (Kasaba),Bengaluru East,4,Apr,37.3,2.3,ksndmc_taluk_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru East (Kasaba),Bengaluru East,5,May,68.0,5.3,ksndmc_taluk_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru East (Kasaba),Bengaluru East,6,Jun,91.3,5.2,ksndmc_taluk_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru East (Kasaba),Bengaluru East,7,Jul,92.8,6.9,ksndmc_taluk_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru East (Kasaba),Bengaluru East,8,Aug,131.8,8.1,ksndmc_taluk_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru East (Kasaba),Bengaluru East,9,Sep,163.2,7.9,ksndmc_taluk_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru East (Kasaba),Bengaluru East,10,Oct,151.5,7.0,ksndmc_taluk_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru East (Kasaba),Bengaluru East,11,Nov,53.1,2.9,ksndmc_taluk_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru East (Kasaba),Bengaluru East,12,Dec,12.4,0.8,ksndmc_taluk_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru North (Kasaba),Bengaluru North,1,Jan,1.2,0.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru North (Kasaba),Bengaluru North,2,Feb,4.3,0.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru North (Kasaba),Bengaluru North,3,Mar,14.1,0.6,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru North (Kasaba),Bengaluru North,4,Apr,53.6,2.6,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru North (Kasaba),Bengaluru North,5,May,97.7,6.1,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru North (Kasaba),Bengaluru North,6,Jun,99.7,5.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru North (Kasaba),Bengaluru North,7,Jul,101.3,7.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru North (Kasaba),Bengaluru North,8,Aug,143.9,9.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru North (Kasaba),Bengaluru North,9,Sep,178.2,9.0,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru North (Kasaba),Bengaluru North,10,Oct,164.4,8.0,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru North (Kasaba),Bengaluru North,11,Nov,57.7,3.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru North (Kasaba),Bengaluru North,12,Dec,13.5,1.0,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru South (Kasaba),Bengaluru South,1,Jan,1.2,0.2,ksndmc_taluk_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru South (Kasaba),Bengaluru South,2,Feb,4.0,0.3,ksndmc_taluk_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru South (Kasaba),Bengaluru South,3,Mar,13.1,0.5,ksndmc_taluk_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru South (Kasaba),Bengaluru South,4,Apr,49.9,2.3,ksndmc_taluk_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru South (Kasaba),Bengaluru South,5,May,90.8,5.4,ksndmc_taluk_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru South (Kasaba),Bengaluru South,6,Jun,91.1,5.2,ksndmc_taluk_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru South (Kasaba),Bengaluru South,7,Jul,92.6,7.0,ksndmc_taluk_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru South (Kasaba),Bengaluru South,8,Aug,131.5,8.2,ksndmc_taluk_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru South (Kasaba),Bengaluru South,9,Sep,162.8,7.9,ksndmc_taluk_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru South (Kasaba),Bengaluru South,10,Oct,127.7,7.1,ksndmc_taluk_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru South (Kasaba),Bengaluru South,11,Nov,44.8,2.9,ksndmc_taluk_normal,KSNDMC-hobli-normals;OpenCity
+Bengaluru South (Kasaba),Bengaluru South,12,Dec,10.5,0.9,ksndmc_taluk_normal,KSNDMC-hobli-normals;OpenCity
+Bidarahalli,Bengaluru East,1,Jan,1.0,0.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Bidarahalli,Bengaluru East,2,Feb,3.5,0.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Bidarahalli,Bengaluru East,3,Mar,11.3,0.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Bidarahalli,Bengaluru East,4,Apr,42.9,2.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Bidarahalli,Bengaluru East,5,May,78.1,5.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Bidarahalli,Bengaluru East,6,Jun,86.6,5.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Bidarahalli,Bengaluru East,7,Jul,88.0,7.0,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Bidarahalli,Bengaluru East,8,Aug,125.0,8.1,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Bidarahalli,Bengaluru East,9,Sep,154.8,7.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Bidarahalli,Bengaluru East,10,Oct,156.8,7.0,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Bidarahalli,Bengaluru East,11,Nov,55.0,2.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Bidarahalli,Bengaluru East,12,Dec,12.8,0.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Dasanapura,Bengaluru North,1,Jan,1.2,0.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Dasanapura,Bengaluru North,2,Feb,4.3,0.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Dasanapura,Bengaluru North,3,Mar,14.1,0.6,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Dasanapura,Bengaluru North,4,Apr,53.4,2.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Dasanapura,Bengaluru North,5,May,97.3,5.8,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Dasanapura,Bengaluru North,6,Jun,94.6,5.6,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Dasanapura,Bengaluru North,7,Jul,96.1,7.6,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Dasanapura,Bengaluru North,8,Aug,136.5,8.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Dasanapura,Bengaluru North,9,Sep,169.1,8.6,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Dasanapura,Bengaluru North,10,Oct,155.2,7.7,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Dasanapura,Bengaluru North,11,Nov,54.4,3.1,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Dasanapura,Bengaluru North,12,Dec,12.7,0.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Devanahalli,Devanahalli,1,Jan,1.0,0.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Devanahalli,Devanahalli,2,Feb,3.6,0.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Devanahalli,Devanahalli,3,Mar,11.7,0.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Devanahalli,Devanahalli,4,Apr,44.5,2.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Devanahalli,Devanahalli,5,May,81.1,5.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Devanahalli,Devanahalli,6,Jun,86.1,5.1,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Devanahalli,Devanahalli,7,Jul,87.5,6.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Devanahalli,Devanahalli,8,Aug,124.3,8.1,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Devanahalli,Devanahalli,9,Sep,154.0,7.8,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Devanahalli,Devanahalli,10,Oct,150.1,7.0,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Devanahalli,Devanahalli,11,Nov,52.7,2.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Devanahalli,Devanahalli,12,Dec,12.3,0.8,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Doddaballapur,Doddaballapur,1,Jan,1.0,0.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Doddaballapur,Doddaballapur,2,Feb,3.4,0.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Doddaballapur,Doddaballapur,3,Mar,11.2,0.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Doddaballapur,Doddaballapur,4,Apr,42.6,2.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Doddaballapur,Doddaballapur,5,May,77.7,5.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Doddaballapur,Doddaballapur,6,Jun,82.7,5.1,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Doddaballapur,Doddaballapur,7,Jul,84.1,6.8,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Doddaballapur,Doddaballapur,8,Aug,119.4,8.0,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Doddaballapur,Doddaballapur,9,Sep,147.8,7.7,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Doddaballapur,Doddaballapur,10,Oct,159.8,6.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Doddaballapur,Doddaballapur,11,Nov,56.1,2.8,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Doddaballapur,Doddaballapur,12,Dec,13.1,0.8,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Hesaraghatta,Bengaluru North,1,Jan,1.0,0.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Hesaraghatta,Bengaluru North,2,Feb,3.6,0.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Hesaraghatta,Bengaluru North,3,Mar,11.8,0.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Hesaraghatta,Bengaluru North,4,Apr,44.7,2.1,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Hesaraghatta,Bengaluru North,5,May,81.4,5.0,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Hesaraghatta,Bengaluru North,6,Jun,80.6,4.8,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Hesaraghatta,Bengaluru North,7,Jul,81.9,6.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Hesaraghatta,Bengaluru North,8,Aug,116.4,7.6,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Hesaraghatta,Bengaluru North,9,Sep,144.1,7.4,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Hesaraghatta,Bengaluru North,10,Oct,138.2,6.6,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Hesaraghatta,Bengaluru North,11,Nov,48.5,2.7,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Hesaraghatta,Bengaluru North,12,Dec,11.3,0.8,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Hoskote,Hoskote,1,Jan,1.1,0.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Hoskote,Hoskote,2,Feb,3.7,0.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Hoskote,Hoskote,3,Mar,12.0,0.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Hoskote,Hoskote,4,Apr,45.8,2.4,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Hoskote,Hoskote,5,May,83.4,5.6,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Hoskote,Hoskote,6,Jun,86.7,5.4,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Hoskote,Hoskote,7,Jul,88.1,7.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Hoskote,Hoskote,8,Aug,125.2,8.6,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Hoskote,Hoskote,9,Sep,155.0,8.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Hoskote,Hoskote,10,Oct,179.4,7.4,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Hoskote,Hoskote,11,Nov,62.9,3.0,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Hoskote,Hoskote,12,Dec,14.7,0.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Jala,Bengaluru North,1,Jan,0.9,0.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Jala,Bengaluru North,2,Feb,3.3,0.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Jala,Bengaluru North,3,Mar,10.7,0.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Jala,Bengaluru North,4,Apr,40.6,2.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Jala,Bengaluru North,5,May,73.9,5.0,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Jala,Bengaluru North,6,Jun,81.8,4.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Jala,Bengaluru North,7,Jul,83.1,6.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Jala,Bengaluru North,8,Aug,118.0,7.7,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Jala,Bengaluru North,9,Sep,146.1,7.4,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Jala,Bengaluru North,10,Oct,146.6,6.6,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Jala,Bengaluru North,11,Nov,51.4,2.7,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Jala,Bengaluru North,12,Dec,12.0,0.8,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Jigani,Anekal,1,Jan,1.2,0.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Jigani,Anekal,2,Feb,4.1,0.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Jigani,Anekal,3,Mar,13.3,0.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Jigani,Anekal,4,Apr,50.6,2.4,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Jigani,Anekal,5,May,92.3,5.6,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Jigani,Anekal,6,Jun,90.1,5.4,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Jigani,Anekal,7,Jul,91.6,7.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Jigani,Anekal,8,Aug,130.1,8.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Jigani,Anekal,9,Sep,161.1,8.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Jigani,Anekal,10,Oct,154.2,7.4,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Jigani,Anekal,11,Nov,54.1,3.0,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Jigani,Anekal,12,Dec,12.6,0.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Kengeri,Bengaluru South,1,Jan,1.2,0.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Kengeri,Bengaluru South,2,Feb,4.2,0.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Kengeri,Bengaluru South,3,Mar,13.6,0.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Kengeri,Bengaluru South,4,Apr,51.7,2.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Kengeri,Bengaluru South,5,May,94.1,5.7,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Kengeri,Bengaluru South,6,Jun,94.9,5.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Kengeri,Bengaluru South,7,Jul,96.4,7.4,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Kengeri,Bengaluru South,8,Aug,136.9,8.7,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Kengeri,Bengaluru South,9,Sep,169.6,8.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Kengeri,Bengaluru South,10,Oct,147.4,7.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Kengeri,Bengaluru South,11,Nov,51.7,3.1,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Kengeri,Bengaluru South,12,Dec,12.1,0.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Krishnarajapuram,Bengaluru East,1,Jan,1.0,0.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Krishnarajapuram,Bengaluru East,2,Feb,3.6,0.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Krishnarajapuram,Bengaluru East,3,Mar,11.8,0.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Krishnarajapuram,Bengaluru East,4,Apr,44.7,2.4,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Krishnarajapuram,Bengaluru East,5,May,81.4,5.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Krishnarajapuram,Bengaluru East,6,Jun,90.2,5.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Krishnarajapuram,Bengaluru East,7,Jul,91.7,7.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Krishnarajapuram,Bengaluru East,8,Aug,130.2,8.4,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Krishnarajapuram,Bengaluru East,9,Sep,161.3,8.1,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Krishnarajapuram,Bengaluru East,10,Oct,157.4,7.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Krishnarajapuram,Bengaluru East,11,Nov,55.2,3.0,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Krishnarajapuram,Bengaluru East,12,Dec,12.9,0.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Nelamangala,Nelamangala,1,Jan,1.4,0.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Nelamangala,Nelamangala,2,Feb,4.7,0.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Nelamangala,Nelamangala,3,Mar,15.3,0.6,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Nelamangala,Nelamangala,4,Apr,58.3,2.6,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Nelamangala,Nelamangala,5,May,106.3,6.0,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Nelamangala,Nelamangala,6,Jun,95.9,5.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Nelamangala,Nelamangala,7,Jul,97.4,7.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Nelamangala,Nelamangala,8,Aug,138.4,9.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Nelamangala,Nelamangala,9,Sep,171.3,8.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Nelamangala,Nelamangala,10,Oct,163.3,8.0,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Nelamangala,Nelamangala,11,Nov,57.3,3.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Nelamangala,Nelamangala,12,Dec,13.4,1.0,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Sarjapura,Anekal,1,Jan,1.0,0.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Sarjapura,Anekal,2,Feb,3.6,0.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Sarjapura,Anekal,3,Mar,11.7,0.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Sarjapura,Anekal,4,Apr,44.5,2.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Sarjapura,Anekal,5,May,81.1,5.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Sarjapura,Anekal,6,Jun,85.3,5.1,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Sarjapura,Anekal,7,Jul,86.7,6.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Sarjapura,Anekal,8,Aug,123.2,8.1,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Sarjapura,Anekal,9,Sep,152.5,7.8,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Sarjapura,Anekal,10,Oct,152.1,7.0,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Sarjapura,Anekal,11,Nov,53.4,2.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Sarjapura,Anekal,12,Dec,12.5,0.8,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Tavarekere,Bengaluru South,1,Jan,1.2,0.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Tavarekere,Bengaluru South,2,Feb,4.1,0.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Tavarekere,Bengaluru South,3,Mar,13.4,0.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Tavarekere,Bengaluru South,4,Apr,50.8,2.4,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Tavarekere,Bengaluru South,5,May,92.6,5.6,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Tavarekere,Bengaluru South,6,Jun,93.1,5.4,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Tavarekere,Bengaluru South,7,Jul,94.6,7.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Tavarekere,Bengaluru South,8,Aug,134.4,8.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Tavarekere,Bengaluru South,9,Sep,166.5,8.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Tavarekere,Bengaluru South,10,Oct,142.8,7.4,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Tavarekere,Bengaluru South,11,Nov,50.1,3.0,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Tavarekere,Bengaluru South,12,Dec,11.7,0.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Uttarahalli,Bengaluru South,1,Jan,1.2,0.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Uttarahalli,Bengaluru South,2,Feb,4.3,0.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Uttarahalli,Bengaluru South,3,Mar,13.9,0.6,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Uttarahalli,Bengaluru South,4,Apr,52.9,2.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Uttarahalli,Bengaluru South,5,May,96.4,5.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Uttarahalli,Bengaluru South,6,Jun,95.9,5.7,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Uttarahalli,Bengaluru South,7,Jul,97.5,7.6,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Uttarahalli,Bengaluru South,8,Aug,138.5,8.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Uttarahalli,Bengaluru South,9,Sep,171.5,8.6,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Uttarahalli,Bengaluru South,10,Oct,154.0,7.7,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Uttarahalli,Bengaluru South,11,Nov,54.0,3.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Uttarahalli,Bengaluru South,12,Dec,12.6,0.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Varthur,Bengaluru East,1,Jan,1.1,0.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Varthur,Bengaluru East,2,Feb,3.7,0.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Varthur,Bengaluru East,3,Mar,12.1,0.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Varthur,Bengaluru East,4,Apr,45.9,2.4,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Varthur,Bengaluru East,5,May,83.7,5.6,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Varthur,Bengaluru East,6,Jun,91.0,5.4,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Varthur,Bengaluru East,7,Jul,92.5,7.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Varthur,Bengaluru East,8,Aug,131.3,8.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Varthur,Bengaluru East,9,Sep,162.7,8.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Varthur,Bengaluru East,10,Oct,157.0,7.3,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Varthur,Bengaluru East,11,Nov,55.1,3.0,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Varthur,Bengaluru East,12,Dec,12.9,0.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Yelahanka,Bengaluru North,1,Jan,1.1,0.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Yelahanka,Bengaluru North,2,Feb,3.8,0.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Yelahanka,Bengaluru North,3,Mar,12.3,0.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Yelahanka,Bengaluru North,4,Apr,46.9,2.2,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Yelahanka,Bengaluru North,5,May,85.5,5.1,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Yelahanka,Bengaluru North,6,Jun,79.7,4.9,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Yelahanka,Bengaluru North,7,Jul,81.0,6.6,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Yelahanka,Bengaluru North,8,Aug,115.1,7.8,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Yelahanka,Bengaluru North,9,Sep,142.5,7.5,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Yelahanka,Bengaluru North,10,Oct,147.7,6.7,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Yelahanka,Bengaluru North,11,Nov,51.8,2.8,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
+Yelahanka,Bengaluru North,12,Dec,12.1,0.8,ksndmc_hobli_normal,KSNDMC-hobli-normals;OpenCity
